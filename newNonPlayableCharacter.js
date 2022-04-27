@@ -28,6 +28,7 @@ function newNonPlayableCharacter(x, y) {
         element.src = `./assets/red-character/east.gif`
         await sleep (time)
         stop ()
+        console.log(walkEast)
     }
 
     async function walkNorth(time) {
@@ -35,6 +36,7 @@ function newNonPlayableCharacter(x, y) {
         element.src = `./assets/red-character/north.gif`
         await sleep (time)
         stop ()
+        console.log(walkNorth)
     }
 
     async function walkWest(time) {
@@ -42,6 +44,7 @@ function newNonPlayableCharacter(x, y) {
         element.src = `./assets/red-character/west.gif`
         await sleep (time)
         stop ()
+        console.log(walkWest)
     }
 
     async function walkSouth(time) {
@@ -49,6 +52,7 @@ function newNonPlayableCharacter(x, y) {
         element.src = `./assets/red-character/south.gif`
         await sleep (time)
         stop ()
+        console.log(walkSouth)
     }
 
     function stop() {
